@@ -5,7 +5,7 @@ public class Assignment1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a sentence: ");
-        String sentence = sc.nextLine();
+        String sentence = sc.nextLine().trim();
 
         int lowercaseCount = 0;
         int uppercaseCount = 0;

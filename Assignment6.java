@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Assignment6 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a sentence: ");
-        String sentence = scanner.nextLine();
+        String sentence = sc.nextLine().trim();
 
         String result = "";
 
